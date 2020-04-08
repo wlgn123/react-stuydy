@@ -12,6 +12,7 @@ function App() {
       {/* <Example.Example4/> */}
       {/* <Example.Example5/> */}
       <Example.Example6/>
+      <Example.Example7/>
     </>
   );
 }
