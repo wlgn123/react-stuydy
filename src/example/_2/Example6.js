@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Example6() {
   const name = '리액트';
@@ -10,10 +10,12 @@ export default function Example6() {
     color: 'aqua',
     fontSize: '48px',
     fontweight: 'bold',
-    padding: 16
-  }
+    padding: 16,
+  };
 
   return (
-    <div style={style}> {name} </div>
-  )
+    <div style={style}>
+      {name}
+    </div>
+  );
 }

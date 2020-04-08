@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 // undefined 테스트2
 export default function Example5() {
   /*
@@ -10,7 +10,7 @@ export default function Example5() {
 
   return (
     <div>
-      {name | '리액트'}
+      {name || '리액트'}
     </div>
-  )
+  );
 }
