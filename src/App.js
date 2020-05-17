@@ -6,7 +6,7 @@ import React from 'react'; // 리액트를 불러오는 구문
 // import Counter from './example/_3/MyComponent4_1';
 // import Say from './example/_3/MyComponent4_2';
 // import EventPractice from './example/_4/MyComponent_2_1';
-import EventPractice from './example/_4/MyComponent_2_4';
+import EventPractice from './example/_4/MyComponent_2_5';
 
 function App() {
   return (
