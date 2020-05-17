@@ -13,8 +13,14 @@ const MyComponent = (props) => {
   );
 };
 
+// name props는 반드시 String타입만 받도록 지정
 MyComponent.propTypes = {
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
+};
+
+// name props가 부모 컴포넌트에서 넘겨지지 않았을 경우, 기본값 지정
+MyComponent.defaultProps = {
+  name: '기본 이름',
 };
 
 export default MyComponent;

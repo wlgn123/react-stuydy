@@ -13,7 +13,8 @@ function App() {
       {/* <Example.Example5/> */}
       {/* <Example.Example6 /> */}
       {/* <Example.Example7 /> */}
-      <MyComponent name="React" />
+      <MyComponent />
+      {/* <MyComponent name={'React'} /> */}
     </>
   );
 }
