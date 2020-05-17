@@ -3,7 +3,8 @@ import React from 'react'; // 리액트를 불러오는 구문
 // import Example from './example/_2';
 // import MyComponent from './example/_3';
 // import MyComponent from './example/_3/MyComponent3_4';
-import Counter from './example/_3/MyComponent4_1';
+// import Counter from './example/_3/MyComponent4_1';
+import Say from './example/_3/MyComponent4_2';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Example.Example6 /> */}
       {/* <MyComponent /> */}
       {/* <MyComponent name="React">테스트입니다만</MyComponent> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Say />
     </>
   );
 }
