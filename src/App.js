@@ -4,7 +4,8 @@ import React from 'react'; // 리액트를 불러오는 구문
 // import MyComponent from './example/_3';
 // import MyComponent from './example/_3/MyComponent3_4';
 // import Counter from './example/_3/MyComponent4_1';
-import Say from './example/_3/MyComponent4_2';
+// import Say from './example/_3/MyComponent4_2';
+import EventPractice from './example/_4/MyComponent_2_1';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <MyComponent /> */}
       {/* <MyComponent name="React">테스트입니다만</MyComponent> */}
       {/* <Counter /> */}
-      <Say />
+      {/* <Say /> */}
+      <EventPractice />
     </>
   );
 }
